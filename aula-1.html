@@ -2,6 +2,8 @@
     <head>
         <meta charset="UTF -8">
         <title> Teste primeira aula DWM</title>
+
+        <script src="js⁄funcoes.js"></script>
     </head>
  </html>
     <h1> Primeiro cabeçalho.</h1>
@@ -35,3 +37,61 @@
             <td> Linha 3 - Coluna 2</td>
         </tr>
     </table>
+
+    <span> 1111111</span>
+    <span> 2222222</span>
+    <span> 3333333</span>
+
+    <div> Div 11111</div>
+    <div> Div 22222</div>
+    <div> Div 33333</div>
+
+    <form action "/cadastro" method="post">
+       <label for="login">Login</label>
+        <input type="text" name="Login" id="Login" placeholder="Faça seu Login">
+       
+        <label for="Senha">Senha</label>
+        <input type="password" name="Senha" id="Senha" placeholder="Digite sua senha">   
+        
+        <input type="radio" name="sexo" value="1" checked> Masculino
+        <input type="radio" name="sexo" value="2" > Feminino
+
+        <input type="checkbox" name="Veiculo1" value="bike">EU tenho uma bike
+        <input type="checkbox" name="Veiculo2" value="carro">EU tenho um carro
+
+        Curso:
+        <select name="Curso">
+            <option value="1">Ciencia da Computação</option>
+            <option value="2">Direito</option>
+            <option value="3">Engenharia Eletrica</option>
+            <option value="4">Medicina</option>
+        </select>
+
+        Mensagem <textarea name="Menssage" rows="10" cols="30"></textarea>
+        idade: <input type="number" name="idade" min="0" max="100" step="1" value="30" >
+        data de nascimento: <input type="date" name="Data nascimento">
+
+        Auto Complete: <input list="cheeses">
+        <datalist id="cheeses">
+        <option> Teste1 </option>
+        <option> Teste2 </option>
+        <option> Teste3 </option>
+        <option> Teste4 </option>
+        <option> Teste5 </option>
+        <option> Teste6 </option>
+        <option> Teste7 </option>
+        <option> Teste8 </option>
+        <option> Teste9 </option>
+        <option> Teste10 </option>
+        <option> Teste11 </option>
+    </datalist>
+
+    <input type="hidden" name="Country" value="Brazil">
+
+    <input type="reset" value="Resetar">
+    <input type="submit" value="Submeter">
+
+    <button type="button" onclick="alert('Hello World')"> Botao 01 </button>
+    <button type="button" onclick="soma(5,10)"> Botao 02 </button>
+
+    </form>
